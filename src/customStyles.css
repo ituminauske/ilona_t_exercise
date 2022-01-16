@@ -1,0 +1,102 @@
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.bg-primary { 
+    --tw-bg-opacity: 1;
+    background-color: rgb(83 109 254/var(--tw-bg-opacity));   
+    height: 7vh;
+}
+
+.navigation-buttons { 
+    margin-top: 20px;
+    margin-right: 10%;
+    align-items: right;
+}
+
+.navigation-button {
+    color: white;
+    width: 20%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 16px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.cart-value { 
+    font-weight: bold;
+    margin-top: 16px;
+    font-size: large;
+    text-align: right;
+    margin-right: 16px;
+    color : rgb(83 109 254);
+}
+
+.item-price {
+    color : rgb(83 109 254);
+    font-weight: bold;
+}
+
+.item-brand {
+    font-weight: bold;
+}
+
+.item-name {
+    font-size: 14px;
+}
+
+.homepage-item-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pagination-group {
+    margin-top: 30px;
+    margin-bottom:40px;
+    margin-left: 40%;
+    align-items: center;
+}
+
+.is-loading-spinner {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.is-loading-spinner .ant-spin-dot {
+    height: 100px !important;
+    width: 100px !important;
+}
+
+.is-loading-spinner .ant-spin-text {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.is-loading-spinner .ant-spin-dot-item {
+    height: 30px;
+    width: 30px;
+}
+
+.empty-cart { 
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    font-weight: bold;
+    font-size: large;
+}
+
+.welcome-text {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(83 109 254)
+}
