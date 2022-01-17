@@ -3,9 +3,9 @@
 ####Notes
 1. As the number of the items is fixed for this exercise - 100, I hardcoded this number.
 2. I used the colors from the original Qogita website to more or less match the theme
-3. I used Redux to store the cart content and value in the application state. It means that getItem is only called once to set initial app state. There also a listener to the state which runs setItem to the localStorage in case there are any changes.   
-4. I used Ant Design component library, so I did not actually have to write a lot of css. 
-5. In order to initialize application state from local storage, I had to use a hack to access window.localStorage from where I create a Redux store (window is only accessable from the client side) 
+3. I used Redux to store the cart content and value in the application state. It means that localStorage.getItem() is only called once to set initial app state. There is also a listener to the state which runs localStorage.setItem() when application state changes.   
+4. I used Ant Design library, so I would not have to write a lot of css. 
+5. In order to initialize application state from local storage, I had to use a hack to access window.localStorage from where I create a Redux store (window is only accessable from the client side). I found it by googling because I was quite stuck with "window is not defined" by trying to get "window" outside the client side and it was the simplest solution. It is in src/redux/localStorageInteractionFunctions.ts - line 2. 
 
 ####How to use
 
